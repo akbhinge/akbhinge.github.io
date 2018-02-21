@@ -30,7 +30,7 @@
                 <a href="#experience">Experience</a>
                 <a href="#education">Education</a>
                 <a href="#projects">Projects</a>
-            </div><!--/.nav-collapse -->
+            </div>
           </div>
         </nav>
 
@@ -44,21 +44,19 @@
     <div class="center" container-fluid>
          <h1  id="textColor">Akshay Bhinge</h1>
          <h4> San Jose, CA, USA</h4> 
-         <p ><a href="https://www.linkedin.com/in/abhinge/"><i class="fa fa-linkedin" style="font-size:25px;margin: 5px; color: black"></i></a>  
-         <a href="https://github.com/akbhinge"><i class="fa fa-github-alt" style="font-size:25px;margin: 5px; color:black"></i></a> 
-         <a href="https://www.instagram.com/akbhinge/"><i class="fa fa-instagram" style="font-size:25px;margin: 5px; color: black"></i></a>
-         <a href="https://twitter.com/imakbhinge"><i class="fa fa-twitter" style="font-size:25px;margin: 5px; color: black"></i></a>
-          </p>
-          <a href="#about"><i class="fa fa-angle-double-down animatedInfinite bounce" id="dropdown" style="font-size:30px;margin-top: 40px; padding:1px; color:black; "></i></a>
-          </div>
+         <p ><a href="https://www.linkedin.com/in/abhinge/"><i class="fa fa-linkedin" id="socialIcons"></i></a>  
+             <a href="https://github.com/akbhinge"><i class="fa fa-github-alt" id="socialIcons"></i></a> 
+             <a href="https://www.instagram.com/akbhinge/"><i class="fa fa-instagram" id="socialIcons"></i></a>
+             <a href="https://twitter.com/imakbhinge"><i class="fa fa-twitter" id="socialIcons"></i></a>
+         </p>
+         <a href="#about"><i class="fa fa-angle-double-down animatedInfinite bounce" id="dropdown1" ></i></a>
+    </div>
 </header>    
 
 <section class="section" id="about">
         <div class="container-fluid">
            <div class="row" >
-               
-               
-               <div class="col-md-6 " >
+       <div class="col-md-6 " >
                 
                    <div class="avatar wow fadeInLeft">
                        <img src="images/profilePic.jpeg" alt="Akshay's Pic" />
@@ -74,7 +72,7 @@
                     
                     <p>I have experience using various front end technologies  and IDE's for developing single page applications</p>
                            
-                    <p>Apart from web technologies, I also have experience with object oriented programming languages such as Java and knowledge of test automation frameworks. Having this little exposure to full-stack development helps me make effective design decisions for developing UI's</p>
+                    <p>Apart from web technologies, I have experience using object oriented programming languages such as Java and knowledge of test automation frameworks. Having this little exposure to full-stack development helps me make effective design decisions for developing UI's</p>
                     
                     <p>Currently I am learning React.js and MongoDB during my free time.</p>
                     
@@ -83,7 +81,7 @@
                     <p>Continue below to know more about me!</p>
                     </div>
                     
-                     <a href="#skills"><i class="fa fa-angle-double-down animatedInfinite bounce center" id="dropdown" style="font-size:30px;margin:60px 340px; padding:10px; color:black; "></i></a>                                                           
+                     <a href="#skills"><i class="fa fa-angle-double-down animatedInfinite bounce center" id="dropdown2" ></i></a>                                                           
                                                                                 
                 </div>       
               
@@ -400,15 +398,15 @@
                    <h5>- UI to compare properties of various data mining tools</h5>
                    
                    <p>HTML5 <span id="skillsDelimeter">|</span> CSS3<span id="skillsDelimeter">|</span>Bootstrap<span id="skillsDelimeter">|</span>Javascript<span id="skillsDelimeter">|</span>Highchart.js</p>
-                   <span><a href="https://github.com/akbhinge/A-Comparative-Study-on-Data-Mining-Tools" class="btn" style="background: black; opacity: 0.7; color: burlywood; width:47%; margin: 0px;">View on Github</a>
+                   <span><a href="https://github.com/akbhinge/A-Comparative-Study-on-Data-Mining-Tools" class="btn" id="githubStyle1">View on Github</a>
 
-                    <a href="http://athena.ecs.csus.edu/~akbhinge/" class="btn" style="background: black; opacity: 0.7; color: burlywood; width:47%; margin-left: 20px;">Visit site</a></span>
+                    <a href="http://athena.ecs.csus.edu/~akbhinge/" class="btn" id="siteStyle1">Visit site</a></span>
                    </div>
                    <div class="col-md-2"></div>
                    <div class="col-md-4 projectComponent  wow fadeInRight" ><h4>Interactive Movie Repository</h4>
                    <p>- A web app resembling a movie repository</p>
                     <p>HTML5 <span id="skillsDelimeter">|</span> CSS3<span id="skillsDelimeter">|</span>SASS<span id="skillsDelimeter">|</span>AngularJS</p>
-                    <a href="https://github.com/akbhinge/Interactive-Movie-Repository" class="btn" style="background: black; opacity: 0.7; color: burlywood; width:-webkit-fill-available;">View on Github</a></div>
+                    <a href="https://github.com/akbhinge/Interactive-Movie-Repository" class="btn" id="buttonStyle">View on Github</a></div>
                     <div class="col-md-1"></div>
                 </div>
                  <div class="row">
@@ -417,7 +415,7 @@
                     <p>- Data mining on Tennis Dataset </p>
                        <p>HTML5 <span id="skillsDelimeter">|</span> CSS3<span id="skillsDelimeter">|</span>Bootstrap<span id="skillsDelimeter">|</span>Javascript<span id="skillsDelimeter">|</span>SQL Server</p>
                             
-                        <a href="#myModal4" class="btn" style="background: black; opacity: 0.7; color: burlywood; width:-webkit-fill-available; font-size: 15px;" data-toggle="modal">View Details</a>
+                        <a href="#myModal4" class="btn" id="buttonStyle" data-toggle="modal">View Details</a>
 
                   <!-- Modal -->
                   <div class="modal fade" id="myModal4"tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -448,7 +446,7 @@
                    <div class="col-md-4 projectComponent  wow fadeInRight"><h4>Tic Tac Toe</h4>
                    <p>- A simple game using Javascript!</p>
                    <p>HTML5 <span id="skillsDelimeter">|</span> CSS3<span id="skillsDelimeter">|</span>LESS<span id="skillsDelimeter">|</span>Javascript</p>
-                    <a href="https://github.com/akbhinge/Tic-Tac-Toe" class="btn" style="background: black; opacity: 0.7; color: burlywood; width:-webkit-fill-available;">View on Github</a>
+                    <a href="https://github.com/akbhinge/Tic-Tac-Toe" class="btn" id="buttonStyle">View on Github</a>
                    </div>
                    <div class="col-md-1"></div>
                </div>  
@@ -458,7 +456,7 @@
                   <div class="col-md-4 projectComponent  wow fadeInLeft"><h4><b>Data Tracker</b></h4>
                        <p>- Android app to track and manage mobile data usage across devices</p>
                        <p>Java<span id="skillsDelimeter">|</span> Android<span id="skillsDelimeter">|</span>Spring<span id="skillsDelimeter">|</span>RESTful API</p>
-                        <a href="https://github.com/dannymurray05/DataTracker" class="btn" style="background: black; opacity: 0.7; color: burlywood; width:-webkit-fill-available;">View on Github</a>
+                        <a href="https://github.com/dannymurray05/DataTracker" class="btn" id="buttonStyle">View on Github</a>
                    </div>
                    <div class="col-md-2"></div>
                    <div class="col-md-4 projectComponent  wow fadeInRight"><h4>Online Bank</h4>
@@ -466,7 +464,7 @@
                    <p>SQL<span id="skillsDelimeter">|</span> HTML5<span id="skillsDelimeter">|</span>Bootstrap</p>
                    
                       <!-- Button to trigger modal -->
-                <a href="#myModal5" class="btn" style="background: black; opacity: 0.7; color: burlywood; width:-webkit-fill-available; font-size: 15px;" data-toggle="modal">View Details</a>
+                <a href="#myModal5" class="btn" id="buttonStyle" data-toggle="modal">View Details</a>
 
                   <!-- Modal -->
                   <div class="modal fade" id="myModal5"tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
