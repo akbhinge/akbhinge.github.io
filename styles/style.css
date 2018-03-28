@@ -499,7 +499,19 @@ footer h5 {
     60% {
       transform: translateY(-3px);
     }
-}
+  }
+
+  .avatar{
+    width: auto;
+    height: auto;
+    margin: 2%;
+  }
+    
+  .center{
+    width: auto;
+    height: 200px;
+  }
+
   .timeline::after {
     left: 31px;
   }
