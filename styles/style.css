@@ -469,6 +469,37 @@ footer h5 {
   /* Make sure that all arrows are pointing leftwards */
   /* Make sure all circles are at the same spot */
   /* Make all right containers behave like the left ones */
+
+  #about{
+    padding: 3%;
+  }    
+
+  #socialIcons {
+    font-size: 10px;
+    margin: 2px;
+    padding: 2px;
+  }
+  #dropdown1 {
+    font-size: 10px;
+    margin: 3px 0px 0px;
+  }
+  #dropdown2 {
+    font-size: 15px;
+    margin: 10px 20px;
+    padding: 5px;
+  }
+      
+   @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-6px);
+    }
+    60% {
+      transform: translateY(-3px);
+    }
+}
   .timeline::after {
     left: 31px;
   }
