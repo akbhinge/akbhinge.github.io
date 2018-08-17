@@ -3,6 +3,9 @@ body {
   overflow-x: hidden;
   height: 100%;
 }
+p, h1, h2, h3, h4, h5 {
+    font-family: 'Signika Negative', sans-serif;
+}
 .animated {
   animation-duration: 2.5s;
   animation-fill-mode: both;
@@ -128,6 +131,14 @@ navbar {
   color: black;
   margin: 31.8% 0% 2% 0%;
   position: relative;
+}
+
+#blinking{
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink{
+    to{opacity: .0;}
 }
 /*
  Styles to display skills
@@ -276,9 +287,13 @@ navbar {
 #about, #contact, #education {
   background: fixed url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/random_grey_variations.png');
 }
-#projects {
+/*#projects {
   background: fixed radial-gradient(ellipse at center, #000 0%, #252538 100%);
+}*/
+#projects{
+    background: #F0F0F0;
 }
+
 #skills, #experience {
   background: fixed radial-gradient(ellipse at center, #232333 0%, #161616 100%);
 }
@@ -638,7 +653,7 @@ footer h5 {
   height: relative;
   border: 1px solid transparent;
   margin: 2%;
-  color: rgba(255, 255, 255, .5);
+  color: ;
 }
 #skillsDelimeter {
   color: burlywood;

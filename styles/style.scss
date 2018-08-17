@@ -171,6 +171,13 @@ navbar{
     
 }
 
+#blinking{
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink{
+    to{opacity: .0;}
+}
 /*
         Styles to display skills
 */
@@ -338,9 +345,13 @@ navbar{
     background: fixed url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/random_grey_variations.png' ); 
 
 }
-
+/*
 #projects{
    background: fixed radial-gradient(ellipse at center, #000000 0%, #252538 100%); 
+}*/
+
+#projects{
+    background: #F0F0F0;
 }
 
 #skills, #experience{
